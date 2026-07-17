@@ -418,6 +418,195 @@ body {
   box-shadow: 0px 15px 30px -5px #f5f5f7;
 }
 
+/* Seccion 7: Plataformas */
+#seccion-plataformas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+#seccion-plataformas h2 {
+  text-align: center;
+  color: #00f0ff;
+  margin-bottom: 50px;
+}
+
+.contenedor-tarjetas-plataformas {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #8a99ad;
+  border-radius: 15px;
+  background-color: #0d0d0d;
+  padding: 30px;
+}
+
+.contenedor-tarjetas-plataformas:hover {
+  box-shadow: 0px 0px 15px 5px #00f0ff;
+}
+
+.contenedor-tarjetas-plataformas h3 {
+  text-align: center;
+  color: #8a99ad;
+  padding-bottom: 10px;
+}
+
+.contenedor-tarjetas-plataformas a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+#contenedor-tarjetas-streaming {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#contenedor-tarjetas-streaming img {
+  width: 30%;
+}
+
+.tarjeta-streaming {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.tarjeta-streaming:hover {
+  box-shadow: 0px 0px 15px 5px #f5f5f5;
+}
+
+#tarjeta-youtube:hover {
+  background: #FF0000;
+  color: #0b0c10;
+}
+
+#tarjeta-spotify:hover {
+  background: #1ED760;
+  color: #0b0c10;
+}
+
+#contenedor-tarjetas-comunidad {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.tarjeta-comunidad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.tarjeta-comunidad:hover {
+  box-shadow: 0px 0px 15px 5px #f5f5f5;
+}
+
+#tarjeta-blog img {
+  width: 90%;
+  border-radius: 25px;
+}
+
+#tarjeta-blog:hover {
+  background-color: #F6F6F7;
+  color: #0d0d0d;
+}
+
+#tarjeta-discord img {
+  width: 70%;
+  border-radius: 25%;
+}
+
+#tarjeta-discord:hover {
+  background-color: #7289DA;
+  color: #0d0d0d;
+}
+
+#contenedor-tarjetas-redes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.tarjeta-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.tarjeta-redes:hover {
+  box-shadow: 0px 0px 15px 5px #f5f5f5;
+}
+
+#tarjeta-instagram img {
+  width: 20%;
+}
+
+#tarjeta-instagram:hover {
+  background-color: #833AB4;
+  color: #0d0d0d;
+}
+
+#tarjeta-tiktok img {
+  width: 20%;
+}
+
+#tarjeta-tiktok:hover {
+  background-color: #250E24;
+  color: #f5f5f5;
+}
+
+#contenedor-tarjetas-fans {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.tarjeta-fans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.tarjeta-fans:hover {
+  box-shadow: 0px 0px 15px 5px #f5f5f5;
+}
+
+#tarjeta-reddit img {
+  width: 20%;
+}
+
+#tarjeta-reddit:hover {
+  background-color: #FF4500;
+  color: #0d0d0d;
+}
+
+#tarjeta-setlist img {
+  width: 20%;
+}
+
+#tarjeta-setlist:hover {
+  background-color: #20262C;
+  color: #f5f5f5;
+}
+
 /* Responsive para celu */
 @media (max-width: 768px) {
   .navbar {
